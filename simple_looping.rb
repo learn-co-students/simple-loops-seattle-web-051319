@@ -1,11 +1,9 @@
-# REMEMBER: print your output to the terminal using 'puts'
-
 def loop_iterator(number_of_times)
-      counter = 0
-      counter +=
-      loop do
-        puts "Welcome to Flatiron School's Web Development Course!"
-        break if counter == 7
+  counter = 0
+  counter +=
+    loop do
+      puts "Welcome to Flatiron School's Web Development Course!"
+      break if counter == 7
     end
 end
 
@@ -16,10 +14,11 @@ end
 
 def while_iterator(number_of_times)
   counter = 1
+  counter +=
   while counter <= 5
   puts "Welcome to Flatiron School's Web Development Course!"
-  break if counter == 3
-  counter +=
+   break if counter == 3
+ end
 end
 
 
